@@ -4,14 +4,14 @@ class TreeNode:
         self.left = left
         self.right = right
 
-# Return the minimum value node of the BST.
+# return the minimum value node of the BST
 def minValueNode(root):
     curr = root
     while curr and curr.left:
         curr = curr.left
     return curr
 
-# Remove a node and return the root of the BST.
+# remove a node and return the root of the BST
 def remove(root, val):
     if not root:
         return None
@@ -39,7 +39,7 @@ def inorder_traversal(root):
 
 if __name__ == "__main__":
     if __name__ == "__main__":
-    # Constructing a sample binary tree:
+    # constructing a sample binary tree
     #         5
     #        / \
     #       3   8
