@@ -1,4 +1,4 @@
-# implementation of bineary search
+# implementation of binary search
 
 def binarySearch(arr: list[int], target: int) -> int:
     L, R = 0, len(arr) - 1
