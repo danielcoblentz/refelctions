@@ -1,9 +1,5 @@
 adjacency_list = {
-    'A': ['B', 'C', 'D', 'E'],
-    'B': ['D'],
-    'C': ['D', 'E'],
-    'D': ['E'],
-    'E': []
+'B':[""]
 }
 
 def topological_sort(graph):
